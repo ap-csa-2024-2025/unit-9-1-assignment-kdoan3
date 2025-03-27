@@ -6,16 +6,16 @@ public class Person
     // TODO: Complete the non-default constructor
     public Person(String iName, String iAge)
     {
-
+        this.name = iName;
+        this.age = iAge;
     }
 
     // TODO: Complete the default constructor using "this"
     // Default values should be "John Doe", and 0
     public Person()
     {
-
+        this("John Doe", 0);
     }
-
 
     // TODO: Add setters and getters; some have been done for you
     public void setName(String iName)
